@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export function SignUp() {
+export function Signup() {
   return (
     <section>
       <div className="flex items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-24">
@@ -91,4 +91,4 @@ export function SignUp() {
     </section>
   );
 }
-export default SignUp
+export default Signup

@@ -1,17 +1,11 @@
-import SignIn from "./components/Signin";
 import React from "react";
-import SignUp from "./components/Signup";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Nav_SelectLang from "./components/Nav-SelectLang.jsx";
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/signup" component={SignUp} />
-        <Route path="/signin" component={SignIn} />
-        {/* Add additional routes if needed */}
-      </Switch>
-    </BrowserRouter>
-  )
+    <>
+    <Nav_SelectLang />
+    </>
+  );
 }
 
-export default App
+export default App;

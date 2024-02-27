@@ -11,7 +11,6 @@ export function SignIn() {
           <div className="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl">Log In</h2>
             <p className="mt-2 text-sm text-gray-600">
-              {/* Removed "Create a free account" link */}
             </p>
             <form action="#" method="POST" className="mt-8">
               <div className="space-y-5">
