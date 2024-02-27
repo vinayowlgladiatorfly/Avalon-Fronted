@@ -3,8 +3,8 @@ import Nav from './Nav.jsx';
 function Nav_SelectLang() {
   return (
     <>
+    <Nav />
     <h1 className='bg-red-900'></h1>
-    <Nav/>
     <h1 className="text-center py-4">Enjoy your Learning Journey!</h1>
     <h2 className="text-center text-dark py-4 font-bold text-lg">Choose Your Language</h2>
     <div className=" justify-center flex gap-12">
