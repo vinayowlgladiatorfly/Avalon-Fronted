@@ -37,7 +37,23 @@ function Alpha(){
              <Card props='K'/>
              <Card props='L'/>
              </div>
-             
+             <div className="flex justify-center h-[250px] m-10 mx-5 w-[50]">
+             <Card props='M'/>
+             <Card props='N'/>
+             <Card props='O'/>
+             <Card props='P'/>
+             <Card props='Q'/>
+             <Card props='R'/>
+             </div>
+             <div className="flex justify-center h-[250px] m-10 mx-5 w-[50]">
+             <Card props='S'/>
+             <Card props='T'/>
+             <Card props='U'/>
+             <Card props='V'/>
+             <Card props='X'/>
+             <Card props='Y'/>
+             <Card props = 'Z'/>
+             </div>
             
 
              
